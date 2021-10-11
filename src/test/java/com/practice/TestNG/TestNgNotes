@@ -1,0 +1,19 @@
+TestNG: TestNG is a unit testing framework. (Testing new generation framework)
+Purpose: 
+  1. TestNG is used to design your test cases in a proper manner or we can say in a systematic way.
+  
+Advantages:
+  1. TestNG is a open source tool so no licensing will be required to use testNG.
+  2. TestNg gives different types of annotations to design test cases.
+  3. Using TestNG we can priorities the test cases using priority keyword.
+  4. Using TestNG we can clubbed the test cases into a groups and then execute the test cases based on groups.
+  5. TestNG provides @parameter annotation , so with that we can pass any function parameter using @parameter annotation.
+  6. TestNG provides dependency so using that we can do one test case depends on another test case using depends on method.
+  7. TestNG provides @DataProvider annotation so using that we can keep the data outside and use them while testing.
+  8. TestNG generates a good html report.
+  9. Using TestNG We can implements retry execution of the test case if its fail in first execution.
+  10. Using TestNG we can implement take screenshot feature once the test case fails using testNG listener.
+  11. Using TestNG we can implement parallel execution of the test cases.
+  12. Using TestNG we can add multiple test into a group using groups keyword.
+  13. Using TestNG if one test case is depends on another group same can be achieved by depends on group method.
+  14. Invocation count : TestNG supports invocation count if same test case is executed multiple times using invocation count keyword.

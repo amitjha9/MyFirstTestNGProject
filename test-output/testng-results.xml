@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="61" passed="59">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Session Automation Suite" duration-ms="61123" started-at="2021-09-21T07:34:02Z" finished-at="2021-09-21T07:35:03Z">
+    <groups>
+      <group name="Test">
+        <method signature="GoogleTest.test1()[pri:4, instance:com.practice.TestNG.GoogleTest@968a59]" name="test1" class="com.practice.TestNG.GoogleTest"/>
+        <method signature="GoogleTest.test2()[pri:5, instance:com.practice.TestNG.GoogleTest@968a59]" name="test2" class="com.practice.TestNG.GoogleTest"/>
+        <method signature="GoogleTest.test3()[pri:6, instance:com.practice.TestNG.GoogleTest@968a59]" name="test3" class="com.practice.TestNG.GoogleTest"/>
+      </group> <!-- Test -->
+      <group name="Regression">
+        <method signature="TestNGGroupFeature.loginTest()[pri:1, instance:com.practice.TestNG.TestNGGroupFeature@1deb50e]" name="loginTest" class="com.practice.TestNG.TestNGGroupFeature"/>
+      </group> <!-- Regression -->
+      <group name="Title">
+        <method signature="GoogleTest.googleTitleTest()[pri:2, instance:com.practice.TestNG.GoogleTest@968a59]" name="googleTitleTest" class="com.practice.TestNG.GoogleTest"/>
+      </group> <!-- Title -->
+      <group name="G1">
+        <method signature="TestCaseWithTestNGroups.Darbhanga()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Darbhanga" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+        <method signature="TestCaseWithTestNGroups.Hydrabad()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Hydrabad" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+        <method signature="TestCaseWithTestNGroups.Patna()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Patna" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+        <method signature="TestCaseWithTestNGroups.Pune()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Pune" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+      </group> <!-- G1 -->
+      <group name="G2">
+        <method signature="TestCaseWithTestNGroups.Bangalore()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Bangalore" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+        <method signature="TestCaseWithTestNGroups.Delhi()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Delhi" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+        <method signature="TestCaseWithTestNGroups.Patna()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Patna" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+        <method signature="TestCaseWithTestNGroups.Pune()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Pune" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+      </group> <!-- G2 -->
+      <group name="Performance">
+        <method signature="TestNGGroupFeature.doMultipleLoginTest()[pri:7, instance:com.practice.TestNG.TestNGGroupFeature@1deb50e]" name="doMultipleLoginTest" class="com.practice.TestNG.TestNGGroupFeature"/>
+      </group> <!-- Performance -->
+      <group name="G3">
+        <method signature="TestCaseWithTestNGroups.Darbhanga()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Darbhanga" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+        <method signature="TestCaseWithTestNGroups.Hydrabad()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Hydrabad" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+        <method signature="TestCaseWithTestNGroups.Punjab()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Punjab" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+      </group> <!-- G3 -->
+      <group name="G4">
+        <method signature="TestCaseWithTestNGroups.Delhi()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Delhi" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+        <method signature="TestCaseWithTestNGroups.Patna()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Patna" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+        <method signature="TestCaseWithTestNGroups.Punjab()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Punjab" class="com.practice.TestNG.TestCaseWithTestNGroups"/>
+      </group> <!-- G4 -->
+      <group name="Link">
+        <method signature="GoogleTest.googleGmailLinkTest()[pri:3, instance:com.practice.TestNG.GoogleTest@968a59]" name="googleGmailLinkTest" class="com.practice.TestNG.GoogleTest"/>
+      </group> <!-- Link -->
+      <group name="Logo">
+        <method signature="GoogleTest.googleLogoTest()[pri:1, instance:com.practice.TestNG.GoogleTest@968a59]" name="googleLogoTest" class="com.practice.TestNG.GoogleTest"/>
+      </group> <!-- Logo -->
+    </groups>
+    <test name="TestNG Practice test" duration-ms="61123" started-at="2021-09-21T07:34:02Z" finished-at="2021-09-21T07:35:03Z">
+      <class name="com.practice.TestNG.InvocationCountTest">
+        <test-method status="PASS" signature="invocationCountTest()[pri:0, instance:com.practice.TestNG.InvocationCountTest@17cd7a0]" name="invocationCountTest" duration-ms="4" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationCountTest -->
+        <test-method status="PASS" signature="invocationCountTest()[pri:0, instance:com.practice.TestNG.InvocationCountTest@17cd7a0]" name="invocationCountTest" duration-ms="6" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationCountTest -->
+        <test-method status="PASS" signature="invocationCountTest()[pri:0, instance:com.practice.TestNG.InvocationCountTest@17cd7a0]" name="invocationCountTest" duration-ms="2" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationCountTest -->
+        <test-method status="PASS" signature="invocationCountTest()[pri:0, instance:com.practice.TestNG.InvocationCountTest@17cd7a0]" name="invocationCountTest" duration-ms="3" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationCountTest -->
+        <test-method status="PASS" signature="invocationCountTest()[pri:0, instance:com.practice.TestNG.InvocationCountTest@17cd7a0]" name="invocationCountTest" duration-ms="3" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationCountTest -->
+      </class> <!-- com.practice.TestNG.InvocationCountTest -->
+      <class name="com.practice.TestNG.TestCaseWithSamePriority">
+        <test-method status="PASS" signature="methodFour()[pri:0, instance:com.practice.TestNG.TestCaseWithSamePriority@1fa3a9d]" name="methodFour" duration-ms="0" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodFour -->
+        <test-method status="PASS" signature="methodTwo()[pri:0, instance:com.practice.TestNG.TestCaseWithSamePriority@1fa3a9d]" name="methodTwo" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTwo -->
+        <test-method status="PASS" signature="methodOne()[pri:1, instance:com.practice.TestNG.TestCaseWithSamePriority@1fa3a9d]" name="methodOne" duration-ms="4" started-at="2021-09-21T07:34:20Z" finished-at="2021-09-21T07:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodOne -->
+        <test-method status="PASS" signature="methodThree()[pri:3, instance:com.practice.TestNG.TestCaseWithSamePriority@1fa3a9d]" name="methodThree" duration-ms="0" started-at="2021-09-21T07:34:37Z" finished-at="2021-09-21T07:34:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodThree -->
+        <test-method status="PASS" signature="methodFive()[pri:4, instance:com.practice.TestNG.TestCaseWithSamePriority@1fa3a9d]" name="methodFive" duration-ms="1" started-at="2021-09-21T07:34:46Z" finished-at="2021-09-21T07:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodFive -->
+      </class> <!-- com.practice.TestNG.TestCaseWithSamePriority -->
+      <class name="com.practice.TestNG.MyFirstClass">
+        <test-method status="PASS" signature="printMethod()[pri:0, instance:com.practice.TestNG.MyFirstClass@4f30ec]" name="printMethod" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMethod -->
+      </class> <!-- com.practice.TestNG.MyFirstClass -->
+      <class name="com.practice.TestNG.TestNGAnnotation">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="setUP" is-config="true" duration-ms="8" started-at="2021-09-21T07:34:02Z" finished-at="2021-09-21T07:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2021-09-21T07:34:02Z" finished-at="2021-09-21T07:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="login" is-config="true" duration-ms="0" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="googleLogoTest" duration-ms="0" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="enterURL" is-config="true" duration-ms="0" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="logOut" is-config="true" duration-ms="0" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="googleTitleTest" duration-ms="0" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="enterURL" is-config="true" duration-ms="0" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="logOut" is-config="true" duration-ms="0" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="enterURL" is-config="true" duration-ms="1" started-at="2021-09-21T07:34:20Z" finished-at="2021-09-21T07:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="searchPageTest()[pri:1, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="searchPageTest" duration-ms="4" started-at="2021-09-21T07:34:20Z" finished-at="2021-09-21T07:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="logOut" is-config="true" duration-ms="0" started-at="2021-09-21T07:34:20Z" finished-at="2021-09-21T07:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2021-09-21T07:34:20Z" finished-at="2021-09-21T07:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:com.practice.TestNG.TestNGAnnotation@8e7350]" name="deleteAllCookies" is-config="true" duration-ms="0" started-at="2021-09-21T07:35:03Z" finished-at="2021-09-21T07:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+      </class> <!-- com.practice.TestNG.TestNGAnnotation -->
+      <class name="com.practice.TestNG.GoogleTitleTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.practice.TestNG.GoogleTitleTest@67ae56]" name="setUP" is-config="true" duration-ms="8645" started-at="2021-09-21T07:34:02Z" finished-at="2021-09-21T07:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:com.practice.TestNG.GoogleTitleTest@67ae56]" name="googleTitleTest" duration-ms="38" started-at="2021-09-21T07:34:11Z" finished-at="2021-09-21T07:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practice.TestNG.GoogleTitleTest@67ae56]" name="tearDown" is-config="true" duration-ms="781" started-at="2021-09-21T07:34:11Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.practice.TestNG.GoogleTitleTest -->
+      <class name="com.practice.TestNG.TestCaseWithPriorityAndNonPriority">
+        <test-method status="PASS" signature="TestMethod2()[pri:0, instance:com.practice.TestNG.TestCaseWithPriorityAndNonPriority@6ba0ac]" name="TestMethod2" duration-ms="2" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod2 -->
+        <test-method status="PASS" signature="TestMethod3()[pri:0, instance:com.practice.TestNG.TestCaseWithPriorityAndNonPriority@6ba0ac]" name="TestMethod3" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod3 -->
+        <test-method status="PASS" signature="TestMethod4()[pri:0, instance:com.practice.TestNG.TestCaseWithPriorityAndNonPriority@6ba0ac]" name="TestMethod4" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod4 -->
+        <test-method status="PASS" signature="TestMethod6()[pri:0, instance:com.practice.TestNG.TestCaseWithPriorityAndNonPriority@6ba0ac]" name="TestMethod6" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod6 -->
+        <test-method status="PASS" signature="TestMethod5()[pri:1, instance:com.practice.TestNG.TestCaseWithPriorityAndNonPriority@6ba0ac]" name="TestMethod5" duration-ms="6" started-at="2021-09-21T07:34:20Z" finished-at="2021-09-21T07:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod5 -->
+        <test-method status="PASS" signature="TestMethod1()[pri:4, instance:com.practice.TestNG.TestCaseWithPriorityAndNonPriority@6ba0ac]" name="TestMethod1" duration-ms="2" started-at="2021-09-21T07:34:46Z" finished-at="2021-09-21T07:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod1 -->
+      </class> <!-- com.practice.TestNG.TestCaseWithPriorityAndNonPriority -->
+      <class name="com.practice.TestNG.GoogleTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.practice.TestNG.GoogleTest@968a59]" name="setUP" is-config="true" duration-ms="7735" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:1, instance:com.practice.TestNG.GoogleTest@968a59]" name="googleLogoTest" duration-ms="169" started-at="2021-09-21T07:34:19Z" finished-at="2021-09-21T07:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practice.TestNG.GoogleTest@968a59]" name="tearDown" is-config="true" duration-ms="768" started-at="2021-09-21T07:34:20Z" finished-at="2021-09-21T07:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.practice.TestNG.GoogleTest@968a59]" name="setUP" is-config="true" duration-ms="7259" started-at="2021-09-21T07:34:20Z" finished-at="2021-09-21T07:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:2, instance:com.practice.TestNG.GoogleTest@968a59]" name="googleTitleTest" duration-ms="17" started-at="2021-09-21T07:34:28Z" finished-at="2021-09-21T07:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practice.TestNG.GoogleTest@968a59]" name="tearDown" is-config="true" duration-ms="704" started-at="2021-09-21T07:34:28Z" finished-at="2021-09-21T07:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.practice.TestNG.GoogleTest@968a59]" name="setUP" is-config="true" duration-ms="7605" started-at="2021-09-21T07:34:28Z" finished-at="2021-09-21T07:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="googleGmailLinkTest()[pri:3, instance:com.practice.TestNG.GoogleTest@968a59]" name="googleGmailLinkTest" duration-ms="197" started-at="2021-09-21T07:34:36Z" finished-at="2021-09-21T07:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleGmailLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practice.TestNG.GoogleTest@968a59]" name="tearDown" is-config="true" duration-ms="742" started-at="2021-09-21T07:34:36Z" finished-at="2021-09-21T07:34:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.practice.TestNG.GoogleTest@968a59]" name="setUP" is-config="true" duration-ms="7810" started-at="2021-09-21T07:34:37Z" finished-at="2021-09-21T07:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="test1()[pri:4, instance:com.practice.TestNG.GoogleTest@968a59]" name="test1" duration-ms="0" started-at="2021-09-21T07:34:45Z" finished-at="2021-09-21T07:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practice.TestNG.GoogleTest@968a59]" name="tearDown" is-config="true" duration-ms="714" started-at="2021-09-21T07:34:45Z" finished-at="2021-09-21T07:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.practice.TestNG.GoogleTest@968a59]" name="setUP" is-config="true" duration-ms="7194" started-at="2021-09-21T07:34:46Z" finished-at="2021-09-21T07:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="test2()[pri:5, instance:com.practice.TestNG.GoogleTest@968a59]" name="test2" duration-ms="1" started-at="2021-09-21T07:34:53Z" finished-at="2021-09-21T07:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practice.TestNG.GoogleTest@968a59]" name="tearDown" is-config="true" duration-ms="717" started-at="2021-09-21T07:34:53Z" finished-at="2021-09-21T07:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.practice.TestNG.GoogleTest@968a59]" name="setUP" is-config="true" duration-ms="8974" started-at="2021-09-21T07:34:53Z" finished-at="2021-09-21T07:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="test3()[pri:6, instance:com.practice.TestNG.GoogleTest@968a59]" name="test3" duration-ms="2" started-at="2021-09-21T07:35:02Z" finished-at="2021-09-21T07:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.practice.TestNG.GoogleTest@968a59]" name="tearDown" is-config="true" duration-ms="766" started-at="2021-09-21T07:35:02Z" finished-at="2021-09-21T07:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.practice.TestNG.GoogleTest -->
+      <class name="com.practice.TestNG.TestNGGroupFeature">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.practice.TestNG.TestNGGroupFeature@1deb50e]" name="loginTest" duration-ms="3" started-at="2021-09-21T07:34:20Z" finished-at="2021-09-21T07:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="registerTest()[pri:2, instance:com.practice.TestNG.TestNGGroupFeature@1deb50e]" name="registerTest" duration-ms="2" depends-on-groups="Regression" started-at="2021-09-21T07:34:28Z" finished-at="2021-09-21T07:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method status="PASS" signature="searchTest()[pri:3, instance:com.practice.TestNG.TestNGGroupFeature@1deb50e]" name="searchTest" duration-ms="2" depends-on-groups="Regression" started-at="2021-09-21T07:34:37Z" description="This test is depends on above group" finished-at="2021-09-21T07:34:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="contactTest()[pri:4, instance:com.practice.TestNG.TestNGGroupFeature@1deb50e]" name="contactTest" duration-ms="0" depends-on-groups="Regression" started-at="2021-09-21T07:34:46Z" finished-at="2021-09-21T07:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactTest -->
+        <test-method status="PASS" signature="addToCartTest()[pri:5, instance:com.practice.TestNG.TestNGGroupFeature@1deb50e]" name="addToCartTest" duration-ms="1" depends-on-groups="Regression" started-at="2021-09-21T07:34:53Z" finished-at="2021-09-21T07:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method status="PASS" signature="paymentTest()[pri:6, instance:com.practice.TestNG.TestNGGroupFeature@1deb50e]" name="paymentTest" duration-ms="1" depends-on-groups="Regression" started-at="2021-09-21T07:35:03Z" finished-at="2021-09-21T07:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentTest -->
+        <test-method status="PASS" signature="doMultipleLoginTest()[pri:7, instance:com.practice.TestNG.TestNGGroupFeature@1deb50e]" name="doMultipleLoginTest" duration-ms="1" started-at="2021-09-21T07:35:03Z" description="This is for performance testing" finished-at="2021-09-21T07:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doMultipleLoginTest -->
+        <test-method status="PASS" signature="createMultipleUserTest()[pri:8, instance:com.practice.TestNG.TestNGGroupFeature@1deb50e]" name="createMultipleUserTest" duration-ms="0" depends-on-groups="Performance" started-at="2021-09-21T07:35:03Z" finished-at="2021-09-21T07:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleUserTest -->
+        <test-method status="PASS" signature="searchMultipleTest()[pri:9, instance:com.practice.TestNG.TestNGGroupFeature@1deb50e]" name="searchMultipleTest" duration-ms="1" depends-on-groups="Performance" started-at="2021-09-21T07:35:03Z" finished-at="2021-09-21T07:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMultipleTest -->
+      </class> <!-- com.practice.TestNG.TestNGGroupFeature -->
+      <class name="com.practice.TestNG.TestNGFeature">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.practice.TestNG.TestNGFeature@16c48ac]" name="loginTest" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="registerPageTest()[pri:2, instance:com.practice.TestNG.TestNGFeature@16c48ac]" name="registerPageTest" duration-ms="0" started-at="2021-09-21T07:34:28Z" depends-on-methods="com.practice.TestNG.TestNGFeature.loginTest" finished-at="2021-09-21T07:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPageTest -->
+        <test-method status="PASS" signature="searchPageTest()[pri:3, instance:com.practice.TestNG.TestNGFeature@16c48ac]" name="searchPageTest" duration-ms="3" started-at="2021-09-21T07:34:37Z" depends-on-methods="com.practice.TestNG.TestNGFeature.loginTest" finished-at="2021-09-21T07:34:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method status="PASS" signature="contactPageTest()[pri:4, instance:com.practice.TestNG.TestNGFeature@16c48ac]" name="contactPageTest" duration-ms="3" started-at="2021-09-21T07:34:46Z" finished-at="2021-09-21T07:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPageTest -->
+      </class> <!-- com.practice.TestNG.TestNGFeature -->
+      <class name="com.practice.TestNG.TestCaseWithPriority">
+        <test-method status="PASS" signature="getMultiplication()[pri:0, instance:com.practice.TestNG.TestCaseWithPriority@14ba872]" name="getMultiplication" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMultiplication -->
+        <test-method status="PASS" signature="getModule()[pri:1, instance:com.practice.TestNG.TestCaseWithPriority@14ba872]" name="getModule" duration-ms="1" started-at="2021-09-21T07:34:20Z" finished-at="2021-09-21T07:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getModule -->
+        <test-method status="PASS" signature="getDivison()[pri:2, instance:com.practice.TestNG.TestCaseWithPriority@14ba872]" name="getDivison" duration-ms="2" started-at="2021-09-21T07:34:28Z" finished-at="2021-09-21T07:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDivison -->
+        <test-method status="PASS" signature="getSubstraction()[pri:3, instance:com.practice.TestNG.TestCaseWithPriority@14ba872]" name="getSubstraction" duration-ms="1" started-at="2021-09-21T07:34:37Z" finished-at="2021-09-21T07:34:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSubstraction -->
+        <test-method status="PASS" signature="getAddition()[pri:4, instance:com.practice.TestNG.TestCaseWithPriority@14ba872]" name="getAddition" duration-ms="3" started-at="2021-09-21T07:34:46Z" finished-at="2021-09-21T07:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAddition -->
+      </class> <!-- com.practice.TestNG.TestCaseWithPriority -->
+      <class name="com.practice.TestNG.MySecondClass">
+        <test-method status="PASS" signature="getAddOutput()[pri:0, instance:com.practice.TestNG.MySecondClass@25b2fe]" name="getAddOutput" duration-ms="0" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAddOutput -->
+        <test-method status="PASS" signature="getModulOutput()[pri:0, instance:com.practice.TestNG.MySecondClass@25b2fe]" name="getModulOutput" duration-ms="2" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getModulOutput -->
+        <test-method status="PASS" signature="getMultOutput()[pri:0, instance:com.practice.TestNG.MySecondClass@25b2fe]" name="getMultOutput" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMultOutput -->
+        <test-method status="PASS" signature="getSubOutput()[pri:0, instance:com.practice.TestNG.MySecondClass@25b2fe]" name="getSubOutput" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSubOutput -->
+      </class> <!-- com.practice.TestNG.MySecondClass -->
+      <class name="com.practice.TestNG.TestCaseWithTestNGroups">
+        <test-method status="PASS" signature="Bangalore()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Bangalore" duration-ms="0" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bangalore -->
+        <test-method status="PASS" signature="Darbhanga()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Darbhanga" duration-ms="0" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Darbhanga -->
+        <test-method status="PASS" signature="Delhi()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Delhi" duration-ms="0" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delhi -->
+        <test-method status="PASS" signature="Hydrabad()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Hydrabad" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hydrabad -->
+        <test-method status="PASS" signature="Patna()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Patna" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Patna -->
+        <test-method status="PASS" signature="Pune()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Pune" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pune -->
+        <test-method status="PASS" signature="Punjab()[pri:0, instance:com.practice.TestNG.TestCaseWithTestNGroups@4bee09]" name="Punjab" duration-ms="0" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Punjab -->
+      </class> <!-- com.practice.TestNG.TestCaseWithTestNGroups -->
+      <class name="com.practice.TestNG.TestCaseWithSkip">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.practice.TestNG.TestCaseWithSkip@ebc39e]" name="test1" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.practice.TestNG.TestCaseWithSkip@ebc39e]" name="test3" duration-ms="1" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:com.practice.TestNG.TestCaseWithSkip@ebc39e]" name="test5" duration-ms="3" started-at="2021-09-21T07:34:12Z" finished-at="2021-09-21T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- com.practice.TestNG.TestCaseWithSkip -->
+    </test> <!-- TestNG Practice test -->
+  </suite> <!-- TestNG Session Automation Suite -->
+</testng-results>

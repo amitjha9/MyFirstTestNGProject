@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Session Automation Suite with parameter]">
+  <test thread-count="5" name="TestNG Practice test with parameter(failed)">
+    <parameter name="fname" value="Test"/>
+    <parameter name="password" value="Test@123"/>
+    <parameter name="lname" value="Admin"/>
+    <parameter name="mbno" value="887634521"/>
+    <parameter name="subject" value="Math"/>
+    <parameter name="url" value="https://demoqa.com/automation-practice-form/"/>
+    <parameter name="email" value="testadmin@gmail.com"/>
+    <classes>
+      <class name="com.testNG.parameters.TestNGParameterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+          <include name="automationAppLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testNG.parameters.TestNGParameterTest -->
+      <class name="com.testNG.parameters.CreateAccountWithTestNGParam">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.testNG.parameters.CreateAccountWithTestNGParam -->
+    </classes>
+  </test> <!-- TestNG Practice test with parameter(failed) -->
+</suite> <!-- Failed suite [TestNG Session Automation Suite with parameter] -->

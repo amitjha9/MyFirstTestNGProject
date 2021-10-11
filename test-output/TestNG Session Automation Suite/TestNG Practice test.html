@@ -1,0 +1,374 @@
+<html>
+<head>
+<title>TestNG:  TestNG Practice test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNG Practice test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>59/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 21 13:04:02 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>61 seconds (61123 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithTestNGroups.Bangalore()'><b>Bangalore</b><br>Test class: com.practice.TestNG.TestCaseWithTestNGroups</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithTestNGroups@4bee09</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithTestNGroups.Darbhanga()'><b>Darbhanga</b><br>Test class: com.practice.TestNG.TestCaseWithTestNGroups</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithTestNGroups@4bee09</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithTestNGroups.Delhi()'><b>Delhi</b><br>Test class: com.practice.TestNG.TestCaseWithTestNGroups</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithTestNGroups@4bee09</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithTestNGroups.Hydrabad()'><b>Hydrabad</b><br>Test class: com.practice.TestNG.TestCaseWithTestNGroups</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithTestNGroups@4bee09</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithTestNGroups.Patna()'><b>Patna</b><br>Test class: com.practice.TestNG.TestCaseWithTestNGroups</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithTestNGroups@4bee09</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithTestNGroups.Pune()'><b>Pune</b><br>Test class: com.practice.TestNG.TestCaseWithTestNGroups</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithTestNGroups@4bee09</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithTestNGroups.Punjab()'><b>Punjab</b><br>Test class: com.practice.TestNG.TestCaseWithTestNGroups</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithTestNGroups@4bee09</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithPriorityAndNonPriority.TestMethod1()'><b>TestMethod1</b><br>Test class: com.practice.TestNG.TestCaseWithPriorityAndNonPriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithPriorityAndNonPriority@6ba0ac</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithPriorityAndNonPriority.TestMethod2()'><b>TestMethod2</b><br>Test class: com.practice.TestNG.TestCaseWithPriorityAndNonPriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithPriorityAndNonPriority@6ba0ac</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithPriorityAndNonPriority.TestMethod3()'><b>TestMethod3</b><br>Test class: com.practice.TestNG.TestCaseWithPriorityAndNonPriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithPriorityAndNonPriority@6ba0ac</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithPriorityAndNonPriority.TestMethod4()'><b>TestMethod4</b><br>Test class: com.practice.TestNG.TestCaseWithPriorityAndNonPriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithPriorityAndNonPriority@6ba0ac</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithPriorityAndNonPriority.TestMethod5()'><b>TestMethod5</b><br>Test class: com.practice.TestNG.TestCaseWithPriorityAndNonPriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithPriorityAndNonPriority@6ba0ac</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithPriorityAndNonPriority.TestMethod6()'><b>TestMethod6</b><br>Test class: com.practice.TestNG.TestCaseWithPriorityAndNonPriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithPriorityAndNonPriority@6ba0ac</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGGroupFeature.addToCartTest()'><b>addToCartTest</b><br>Test class: com.practice.TestNG.TestNGGroupFeature</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGGroupFeature@1deb50e</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGFeature.contactPageTest()'><b>contactPageTest</b><br>Test class: com.practice.TestNG.TestNGFeature</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGFeature@16c48ac</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGGroupFeature.contactTest()'><b>contactTest</b><br>Test class: com.practice.TestNG.TestNGGroupFeature</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGGroupFeature@1deb50e</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGGroupFeature.createMultipleUserTest()'><b>createMultipleUserTest</b><br>Test class: com.practice.TestNG.TestNGGroupFeature</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGGroupFeature@1deb50e</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGGroupFeature.doMultipleLoginTest()'><b>doMultipleLoginTest</b><br>Test class: com.practice.TestNG.TestNGGroupFeature<br>Test method: This is for performance testing</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGGroupFeature@1deb50e</td></tr>
+<tr>
+<td title='com.practice.TestNG.MySecondClass.getAddOutput()'><b>getAddOutput</b><br>Test class: com.practice.TestNG.MySecondClass</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.MySecondClass@25b2fe</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithPriority.getAddition()'><b>getAddition</b><br>Test class: com.practice.TestNG.TestCaseWithPriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithPriority@14ba872</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithPriority.getDivison()'><b>getDivison</b><br>Test class: com.practice.TestNG.TestCaseWithPriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithPriority@14ba872</td></tr>
+<tr>
+<td title='com.practice.TestNG.MySecondClass.getModulOutput()'><b>getModulOutput</b><br>Test class: com.practice.TestNG.MySecondClass</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.MySecondClass@25b2fe</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithPriority.getModule()'><b>getModule</b><br>Test class: com.practice.TestNG.TestCaseWithPriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithPriority@14ba872</td></tr>
+<tr>
+<td title='com.practice.TestNG.MySecondClass.getMultOutput()'><b>getMultOutput</b><br>Test class: com.practice.TestNG.MySecondClass</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.MySecondClass@25b2fe</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithPriority.getMultiplication()'><b>getMultiplication</b><br>Test class: com.practice.TestNG.TestCaseWithPriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithPriority@14ba872</td></tr>
+<tr>
+<td title='com.practice.TestNG.MySecondClass.getSubOutput()'><b>getSubOutput</b><br>Test class: com.practice.TestNG.MySecondClass</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.MySecondClass@25b2fe</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithPriority.getSubstraction()'><b>getSubstraction</b><br>Test class: com.practice.TestNG.TestCaseWithPriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithPriority@14ba872</td></tr>
+<tr>
+<td title='com.practice.TestNG.GoogleTest.googleGmailLinkTest()'><b>googleGmailLinkTest</b><br>Test class: com.practice.TestNG.GoogleTest</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.GoogleTest@968a59</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGAnnotation.googleLogoTest()'><b>googleLogoTest</b><br>Test class: com.practice.TestNG.TestNGAnnotation</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGAnnotation@8e7350</td></tr>
+<tr>
+<td title='com.practice.TestNG.GoogleTest.googleLogoTest()'><b>googleLogoTest</b><br>Test class: com.practice.TestNG.GoogleTest</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.GoogleTest@968a59</td></tr>
+<tr>
+<td title='com.practice.TestNG.GoogleTitleTest.googleTitleTest()'><b>googleTitleTest</b><br>Test class: com.practice.TestNG.GoogleTitleTest</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.GoogleTitleTest@67ae56</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGAnnotation.googleTitleTest()'><b>googleTitleTest</b><br>Test class: com.practice.TestNG.TestNGAnnotation</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGAnnotation@8e7350</td></tr>
+<tr>
+<td title='com.practice.TestNG.GoogleTest.googleTitleTest()'><b>googleTitleTest</b><br>Test class: com.practice.TestNG.GoogleTest</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.GoogleTest@968a59</td></tr>
+<tr>
+<td title='com.practice.TestNG.InvocationCountTest.invocationCountTest()'><b>invocationCountTest</b><br>Test class: com.practice.TestNG.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.InvocationCountTest@17cd7a0</td></tr>
+<tr>
+<td title='com.practice.TestNG.InvocationCountTest.invocationCountTest()'><b>invocationCountTest</b><br>Test class: com.practice.TestNG.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.InvocationCountTest@17cd7a0</td></tr>
+<tr>
+<td title='com.practice.TestNG.InvocationCountTest.invocationCountTest()'><b>invocationCountTest</b><br>Test class: com.practice.TestNG.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.InvocationCountTest@17cd7a0</td></tr>
+<tr>
+<td title='com.practice.TestNG.InvocationCountTest.invocationCountTest()'><b>invocationCountTest</b><br>Test class: com.practice.TestNG.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.InvocationCountTest@17cd7a0</td></tr>
+<tr>
+<td title='com.practice.TestNG.InvocationCountTest.invocationCountTest()'><b>invocationCountTest</b><br>Test class: com.practice.TestNG.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.InvocationCountTest@17cd7a0</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGFeature.loginTest()'><b>loginTest</b><br>Test class: com.practice.TestNG.TestNGFeature</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGFeature@16c48ac</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGGroupFeature.loginTest()'><b>loginTest</b><br>Test class: com.practice.TestNG.TestNGGroupFeature</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGGroupFeature@1deb50e</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithSamePriority.methodFive()'><b>methodFive</b><br>Test class: com.practice.TestNG.TestCaseWithSamePriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithSamePriority@1fa3a9d</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithSamePriority.methodFour()'><b>methodFour</b><br>Test class: com.practice.TestNG.TestCaseWithSamePriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithSamePriority@1fa3a9d</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithSamePriority.methodOne()'><b>methodOne</b><br>Test class: com.practice.TestNG.TestCaseWithSamePriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithSamePriority@1fa3a9d</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithSamePriority.methodThree()'><b>methodThree</b><br>Test class: com.practice.TestNG.TestCaseWithSamePriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithSamePriority@1fa3a9d</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithSamePriority.methodTwo()'><b>methodTwo</b><br>Test class: com.practice.TestNG.TestCaseWithSamePriority</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithSamePriority@1fa3a9d</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGGroupFeature.paymentTest()'><b>paymentTest</b><br>Test class: com.practice.TestNG.TestNGGroupFeature</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGGroupFeature@1deb50e</td></tr>
+<tr>
+<td title='com.practice.TestNG.MyFirstClass.printMethod()'><b>printMethod</b><br>Test class: com.practice.TestNG.MyFirstClass</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.MyFirstClass@4f30ec</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGFeature.registerPageTest()'><b>registerPageTest</b><br>Test class: com.practice.TestNG.TestNGFeature</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGFeature@16c48ac</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGGroupFeature.registerTest()'><b>registerTest</b><br>Test class: com.practice.TestNG.TestNGGroupFeature</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGGroupFeature@1deb50e</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGGroupFeature.searchMultipleTest()'><b>searchMultipleTest</b><br>Test class: com.practice.TestNG.TestNGGroupFeature</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGGroupFeature@1deb50e</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGAnnotation.searchPageTest()'><b>searchPageTest</b><br>Test class: com.practice.TestNG.TestNGAnnotation</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGAnnotation@8e7350</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGFeature.searchPageTest()'><b>searchPageTest</b><br>Test class: com.practice.TestNG.TestNGFeature</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGFeature@16c48ac</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestNGGroupFeature.searchTest()'><b>searchTest</b><br>Test class: com.practice.TestNG.TestNGGroupFeature<br>Test method: This test is depends on above group</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestNGGroupFeature@1deb50e</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithSkip.test1()'><b>test1</b><br>Test class: com.practice.TestNG.TestCaseWithSkip</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithSkip@ebc39e</td></tr>
+<tr>
+<td title='com.practice.TestNG.GoogleTest.test1()'><b>test1</b><br>Test class: com.practice.TestNG.GoogleTest</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.GoogleTest@968a59</td></tr>
+<tr>
+<td title='com.practice.TestNG.GoogleTest.test2()'><b>test2</b><br>Test class: com.practice.TestNG.GoogleTest</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.GoogleTest@968a59</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithSkip.test3()'><b>test3</b><br>Test class: com.practice.TestNG.TestCaseWithSkip</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithSkip@ebc39e</td></tr>
+<tr>
+<td title='com.practice.TestNG.GoogleTest.test3()'><b>test3</b><br>Test class: com.practice.TestNG.GoogleTest</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.GoogleTest@968a59</td></tr>
+<tr>
+<td title='com.practice.TestNG.TestCaseWithSkip.test5()'><b>test5</b><br>Test class: com.practice.TestNG.TestCaseWithSkip</td>
+<td></td>
+<td>0</td>
+<td>com.practice.TestNG.TestCaseWithSkip@ebc39e</td></tr>
+</table><p>
+</body>
+</html>

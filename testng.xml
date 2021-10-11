@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Session Automation Suite">
+	<test name="TestNG Practice test">
+	
+		<classes>
+			<class name="com.practice.TestNG.GoogleTest" />
+			<class name="com.practice.TestNG.GoogleTitleTest" />
+			<class name="com.practice.TestNG.InvocationCountTest" />
+			<class name="com.practice.TestNG.MyFirstClass" />
+			<class name="com.practice.TestNG.MySecondClass" />
+			<class name="com.practice.TestNG.TestCaseWithPriority" />
+			<class name="com.practice.TestNG.TestCaseWithPriorityAndNonPriority" />
+			<class name="com.practice.TestNG.TestCaseWithSamePriority" />
+			<class name="com.practice.TestNG.TestCaseWithSkip" />
+			<class name="com.practice.TestNG.TestCaseWithTestNGroups" />
+			<class name="com.practice.TestNG.TestNGAnnotation" />
+			<class name="com.practice.TestNG.TestNGFeature" />
+			<class name="com.practice.TestNG.TestNGGroupFeature" />
+		</classes>
+	</test> <!-- TestGroup -->
+</suite> <!-- Suite -->
